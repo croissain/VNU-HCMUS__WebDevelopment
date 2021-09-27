@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;400;600;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #fff;
+}
+
+#wrapper {
+
+}
+
+.container {
+    max-width: 900px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__navbar ul{
+    align-items: center;
+}
+
+.header__navbar {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.header__menu {
+    display: inline-block;
+}
+
+.header__navbar li {
+    margin: 0 30px;
+}
+
+.header__menu-item {
+    list-style: none;
+    display: inline-block;
+}
+
+.header__menu-item a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.body {
+    margin-top: 50px;
+}
+
+.avatar {
+    border-radius: 50%;
+    max-width: 30%;
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    color: rgb(82, 82, 82);
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.back-home-btn {
+    margin-top: 30px;
+}
+
+.back-home-btn a {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #e0af98;
+    box-shadow: 8px 10px 20px #e2bdab;
+    padding: 10px 12px;
+    border-radius: 20px;
+    transition: all 0.1s;
+    text-decoration: none;
+    color: #fff;
+}
+
+.back-home-btn a:hover {
+    background-color: #ebb095;
+}
+
+.back-home-btn a:active {
+    background-color: #fff;
+    color: #e0af98;
+}
+
+.back-home-btn:active {
+    transform: translateX(3px) translateY(3px);
+
+}
+
+#wave {
+    position: relative;
+    bottom: 0;
+}

@@ -1,0 +1,124 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#content {
+    background-color: #d6d1bf;
+}
+
+#content .content-section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 40px 112px;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    /* Độ dày của chữ */
+    font-weight: 500;
+    text-align: center;
+    /* Khoảng cách giữa các chữ trong từ */
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+#content img {
+    width: 300px;
+    height: calc(300px/0.875);
+    border: 3px solid #000;
+}
+
+#content .heading-btn {
+    color: #fff;
+    text-align: center;
+    background-color: #009688;
+    padding: 10px;
+    width: 325px;
+    border-radius: 4px;
+}
+
+#content .content-info {
+    line-height: 1.6;
+    width: 325px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+#content .content-info p{
+    border-bottom: 1px #ccc solid;
+    font-size: 15px;
+}
+
+#content img:hover {
+    opacity: 0.8;
+}
+
+#content .back-home {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #009688;
+    border-radius: 4px;
+    width: 325px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+#content .back-home:hover {
+    opacity: 0.7;
+}
+
+#content .back-home a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+#footer {
+    height: 70px;
+    text-align: center;
+}
+
+#footer img {
+    width: 300px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
